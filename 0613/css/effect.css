@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+    font-family: serif;
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+p.first {
+    color: violet;
+}
+
+p.second {
+    color: yellow;
+}

@@ -1,0 +1,60 @@
+/* * : 전체에 적용 */
+* {  
+    margin : 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+}
+
+/* 태그에 적용 */
+a {color : inherit; text-decoration: none;}
+button {cursor: pointer;} /* 마우스 모양 바꾸기 */
+body,html {min-width: 960px;}
+.all {width: 100%; float: left} /* float : 태그 정렬 시키는 속성 */
+.wrap {width: 960px;}
+.clear {clear: both; position: inherit;}
+
+/* # : ID 선택자 */
+/* 와이어프레임 기준으로 설정 */
+header {height: 130px;}
+#header_logo {padding-top: 20px;}
+.logo {height: 100px; overflow: hidden; float: left}
+.logo>a>img {width: 250px;}
+
+nav {float: right; margin-top: 30px; padding: 10px;}
+.nav {width: 600px; height: 20px;}
+.nav>li {
+    float: left; 
+    width: 200px; 
+    text-align: center; 
+    position: relative; 
+    transition: all 0.4s;
+    padding: 5px 0;
+}
+.nav>li:hover {background-color: #7b422e; color: #FFF;}
+
+.submenu {
+    display: none; 
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 5px;
+}
+.submenu>li {padding: 5px 0; transition: all 0.4s; color: #000;}
+.submenu>li:hover {background-color: #bb692d; color: inherit;}
+
+#imageslide {height: 400px;}
+
+#contents {height: 500px;}
+
+footer {
+    height: 150px;
+    max-width: 100%;
+    margin-top: 30px;
+    background-color: #bb692d;
+    color: #FFFFFF;
+    overflow: hidden; /* 덮어쓰기 하지마라 */
+}
+
+

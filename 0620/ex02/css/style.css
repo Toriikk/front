@@ -58,7 +58,7 @@ nav {float: right; margin-top: 30px; padding: 10px;}
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px; /* 모서리 둥글게 */
     left: 50%;
-    top: 50%;
+    top: 350px;
 }
 .welcome h1 span {color:#bb692d;}
 .welcome h3 span {color:#6a6a6a;}
